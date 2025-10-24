@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "types": ["node", "hardhat"],
+    "resolveJsonModule": true
+  },
+  "include": [
+    "hardhat.config.ts",
+    "deploy/**/*.ts",
+    "tasks/**/*.ts",
+    "test/**/*.ts",
+    "scripts/**/*.ts"
+  ]
+}
+
+

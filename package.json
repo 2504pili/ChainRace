@@ -1,0 +1,14 @@
+{
+  "name": "chainrace-monorepo",
+  "private": true,
+  "workspaces": [
+    "chainrace/fhevm-hardhat-template",
+    "chainrace/frontend"
+  ],
+  "scripts": {
+    "bootstrap": "npm -w chainrace/fhevm-hardhat-template install && npm -w chainrace/frontend install",
+    "build": "npm -w chainrace/fhevm-hardhat-template run build && npm -w chainrace/frontend run build"
+  }
+}
+
+
